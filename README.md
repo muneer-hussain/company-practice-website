@@ -1,2 +1,2 @@
 # company-practice-website
-practice a website with ml and css
+practice a website with html and css
