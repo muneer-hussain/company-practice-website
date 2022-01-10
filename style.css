@@ -1,3 +1,5 @@
+/*updated code*/
+
 :root {
     --primary: #ddd;
     --dark: #333;
@@ -198,7 +200,10 @@ footer {
 @media (max-width:500px) {
     .header ul {
         display: grid;
-        grid-template-columns: 200px;
+        grid-template-columns: 0.5fr;
+        justify-content: center;
+        margin-left: 0px;
+        padding-left: 0px;
     }
     .top-container {
         grid-template-areas: "showcase" "top-box-1" "top-box-2";
@@ -227,14 +232,17 @@ footer {
         grid-template-columns: 250px;
     }
     .top-container-top-box-2 {
+        display: grid;
         grid-template-columns: 250px;
         margin-left: 80px;
+        margin-left: 20px;
     }
     .boxes {
         display: grid;
         grid-template-columns: 280px;
         margin-left: 5px;
         margin-top: 10px;
+        justify-content: center;
     }
     .box {
         padding: 30px;
@@ -244,23 +252,28 @@ footer {
         text-align: center;
         width: 275px;
         box-shadow: var(--shadow);
-        margin-left: 20px;
-        margin-top: 10px;
+        margin-left: 50px;
+        margin-top: 40px;
         margin-bottom: 10px;
+        justify-content: center;
     }
     .image {
-        width: 85vw;
+        width: 60vw;
         height: 40vh;
+        justify-content: center;
     }
     .showcase-2 {
-        grid-template-columns: 300px;
+        display: grid;
+        grid-template-columns: 250px;
+    }
+    .showcase-2-content {
+        padding-right: 0px;
     }
     .showcase-2-image {
-        padding-left: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
-    .showcase-2-margin-padding {
-        margin-left: 7px;
-        margin-right: 60px;
-        box-shadow: var(--shadow);
+    .pictures {
+        margin-top: 20px;
     }
 }
