@@ -196,6 +196,7 @@ footer {
     color: var(--light);
     margin-bottom: 15px;
 }
+/*Media Queries*/
 
 @media (max-width:500px) {
     .header ul {
@@ -207,7 +208,6 @@ footer {
     }
     .top-container {
         grid-template-areas: "showcase" "top-box-1" "top-box-2";
-        grid-template-columns: 100px;
         margin-top: 20px;
     }
     .showcase {
@@ -229,11 +229,11 @@ footer {
         margin-bottom: 10px;
     }
     .top-container-top-box-1 {
-        grid-template-columns: 250px;
+        grid-template-columns: 1fr;
     }
     .top-container-top-box-2 {
         display: grid;
-        grid-template-columns: 250px;
+        grid-template-columns: 1fr;
         margin-left: 80px;
         margin-left: 20px;
     }
@@ -264,7 +264,7 @@ footer {
     }
     .showcase-2 {
         display: grid;
-        grid-template-columns: 250px;
+        grid-template-columns: 1fr;
     }
     .showcase-2-content {
         padding-right: 0px;
